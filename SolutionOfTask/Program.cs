@@ -18,10 +18,13 @@ void SortingArray(string[] arrayFirst, string[] arraySecond) // объявили
 
 void PrintArray(string[] array) // метод для вывода печати
 {
+    Console.Write("[ ");
     for (int i = 0; i < array.Length; i++) // цикл для поэтапного отображения эелементов на печати
     {
         Console.Write($"{array[i]} ");
+
     }
+    Console.Write("]");
 }
 
 SortingArray(arrayFirst, arraySecond);
